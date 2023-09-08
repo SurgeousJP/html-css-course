@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 13b</title>
+    <style>
+      .green-side-bar{
+        background-color: green;
+        color: white;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 100px;
+      }
+      .modal_example{
+        background-color: rgba(0, 0, 0, 0.8);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .modal_box{
+        background-color: white;
+        width: 300px;
+        padding: 5px 10px 10px 10px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body style="height: 3000px;">
+    <div class="green-side-bar">
+      right sidebar
+    </div>
+    <div class="modal_example">
+      <div class="modal_box">
+        <p style="font-weight: bold; font-size: 20px;">
+          Modal Title
+        </p>
+        <p>
+          This is a modal.
+        </p>
+        <button>
+          Close
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

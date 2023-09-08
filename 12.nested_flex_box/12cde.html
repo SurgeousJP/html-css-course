@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IOS Gmail</title>
+    
+    <style>
+      div{
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+        font-size: 16px;
+      }
+      .inbox_info{
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        align-items: center;
+      }
+      .gmail_profile_image{
+        height: 50px;
+        border-radius: 50px;
+      }
+      .tab_name{
+        color: gray;
+        margin-bottom: 10px;
+      }
+      .gmail_profile_image{
+        margin-right: 10px;
+      }
+      .inbox_title{
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .inbox_headline{
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .inbox_body{
+        font-size: 16px;
+        color: rgb(159, 155, 155);
+      }
+      .inbox_receive_time{
+        font-size: 14px;
+        color: rgb(159, 155, 155);
+      }
+      .inbox_title_time{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .character_inbox_list{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        border: solid;
+        border-color: rgb(215, 202, 202);
+        border-width: 1px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        padding: 15px 15px 15px 15px;
+      }
+      .inbox_description{
+        display: flex;
+        flex-direction: column;
+        flex: 1
+      }
+    </style>
+  </head>
+  <body>
+    <div class="character_inbox_list">
+      <div class="tab_name">ALL CHARACTERS</div>
+      <div class="inbox_info">
+        <img class="gmail_profile_image" src="imgs/kafka_violin.jpg">
+        <div class="inbox_description">
+          <div class="inbox_header">
+            <div class="inbox_title_time">
+              <div class="inbox_title">Kafka</div>
+              <div class="inbox_receive_time">10:00 PM</div>
+            </div>
+            <div class="inbox_headline">Demo flex box with Kafka :3</div>
+            <div class="inbox_body">A introduction to Kafka - Stellaron Hunters</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="inbox_info">
+        <img class="gmail_profile_image" src="imgs/jingliu_picture.jpg">
+        <div class="inbox_description">
+          <div class="inbox_header">
+            <div class="inbox_title_time">
+              <div class="inbox_title">Jingliu</div>
+              <div class="inbox_receive_time">10:00 PM</div>
+            </div>
+            <div class="inbox_headline">Demo flex box with Jingliu :3</div>
+            <div class="inbox_body">Sword Master of the Luofu
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="inbox_info">
+        <img class="gmail_profile_image" src="imgs/topaz_picture.jpg">
+        <div class="inbox_description">
+          <div class="inbox_header">
+            <div class="inbox_title_time">
+              <div class="inbox_title">Topaz</div>
+              <div class="inbox_receive_time">10:00 PM</div>
+            </div>
+            <div class="inbox_headline">Demo flex box with Topaz :3</div>
+            <div class="inbox_body">Senior Manager of the Strategic Investment Department in the Interastral Peace Corporation</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Challenge Exercise</title>
+    <style>
+      .clothing-item{
+        position: relative;
+        width: 400px;
+        height: 400px;
+      }
+      .sale-percentage{
+        position: absolute;
+        background-color: white;
+        color: black;
+        z-index: 1;
+        top: 5px;
+        right: 0px;
+        padding: 5px 5px 5px 5px;
+      }
+      .product-image{
+        z-index: 0;
+      }
+      .add-cart-container{
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.8);
+        
+        z-index: 1;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+
+        height: 100px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+      }
+      .add-to-cart-button{
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border: solid 1px;
+        padding: 5px 10px 5px 10px;
+        margin-bottom: 20px;
+      }
+      body{
+        height: 3000px;
+        font-family: Arial;;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="clothing-item">
+      <img class="product-image" src="imgs/kafka-coat.png" alt="Kafka coat" style="width: 400px; height: 400px;">
+      <div class="sale-percentage">20% OFF</div>
+      <div class="add-cart-container">
+        <button class="add-to-cart-button">Add to cart</button>
+      </div>
+    </div>
+  </body>
+</html>

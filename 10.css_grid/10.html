@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Grid Exercise</title>
+    <style>
+      .ex_10a_blue_grid{
+        background-color: lightblue;
+      }
+      .ex_10a_pink_grid{
+        background-color: lightpink;
+      }
+      .ex_10a_grid{
+        display: grid;
+        grid-template-columns: 200px 75px;
+        margin-bottom: 20px;
+      }
+      .ex_10b_grid{
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+        margin-bottom: 20px;
+      }
+      .ex_10c_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 10px;
+        column-gap: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ex_10a_grid">
+      <div class="ex_10a_blue_grid">200px</div>
+      <div class="ex_10a_pink_grid">75px</div>
+    </div>
+
+    <div class="ex_10b_grid">
+      <div class="ex_10a_blue_grid">col1</div>
+      <div class="ex_10a_pink_grid">col2</div>
+      <div class="ex_10a_blue_grid">col3</div>
+    </div>
+
+    <div class="ex_10c_grid">
+      <div class="ex_10a_pink_grid">75px</div>
+      <div class="ex_10a_pink_grid">75px</div>
+      <div class="ex_10a_pink_grid">75px</div>
+      <div class="ex_10a_pink_grid">75px</div>
+      <div class="ex_10a_pink_grid">75px</div>
+      <div class="ex_10a_pink_grid">75px</div>
+      <div class="ex_10a_pink_grid">75px</div>
+      <div class="ex_10a_pink_grid">75px</div>
+    </div>
+  </body>
+</html>
